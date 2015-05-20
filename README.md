@@ -1,4 +1,4 @@
-# nrf51822-tutorials
+# redbearlabs nrf51822-tutorials with nrf51822 ver 8.0 sdk
 
 
 ######build.py
