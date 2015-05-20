@@ -1,0 +1,422 @@
+Archive member included because of file (symbol)
+
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                              /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                              /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                              /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                              /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                              /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_exit)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+                              _build/main.o (symbol from plugin) (memcmp)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+                              _build/app_scheduler.o (symbol from plugin) (memcpy)
+/Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                              _build/main.o (symbol from plugin) (strlen)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .text          0x0000000000000000       0x60 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .data          0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss           0x0000000000000000       0x1c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 _build/app_error.o (symbol from plugin)
+ .data.SystemCoreClock
+                0x0000000000000000        0x4 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 _build/app_scheduler.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/app_timer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/app_timer_appsh.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/nrf_assert.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/nrf_delay.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/ble_advdata.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/ble_conn_params.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/ble_srv_common.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/system_nrf51.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 _build/softdevice_handler.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 _build/gcc_startup_nrf51.o
+ .bss           0x0000000000000000        0x0 _build/gcc_startup_nrf51.o
+ .ARM.extab     0x0000000000000000        0x0 _build/gcc_startup_nrf51.o
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .jcr           0x0000000000000000        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000018000 0x0000000000028000 xr
+RAM              0x0000000020002000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+LOAD _build/app_error.o
+LOAD /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+LOAD /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+LOAD /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+LOAD _build/app_scheduler.o
+LOAD _build/app_timer.o
+LOAD _build/app_timer_appsh.o
+LOAD _build/nrf_assert.o
+LOAD _build/nrf_delay.o
+LOAD _build/main.o
+LOAD _build/ble_advdata.o
+LOAD _build/ble_conn_params.o
+LOAD _build/ble_srv_common.o
+LOAD _build/system_nrf51.o
+LOAD _build/softdevice_handler.o
+LOAD _build/gcc_startup_nrf51.o
+START GROUP
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+START GROUP
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+LOAD /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+END GROUP
+
+.text           0x0000000000018000     0x1994
+ *(.Vectors)
+ .Vectors       0x0000000000018000       0xc0 _build/gcc_startup_nrf51.o
+                0x0000000000018000                __Vectors
+ *(.text*)
+ .text          0x00000000000180c0       0x78 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000000000180c0                _mainCRTStartup
+                0x00000000000180c0                _start
+ .text.exit     0x0000000000018138       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                0x0000000000018138                exit
+ .text.__libc_init_array
+                0x0000000000018164       0x4c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                0x0000000000018164                __libc_init_array
+ .text.memset   0x00000000000181b0       0x10 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                0x00000000000181b0                memset
+ .text._exit    0x00000000000181c0        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x00000000000181c0                _exit
+ .text          0x00000000000181c4      0xb40 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+                0x00000000000181e0                sd_app_evt_wait.lto_priv.35
+                0x00000000000181e4                sd_ble_enable.lto_priv.45
+                0x00000000000181e8                sd_ble_gap_device_name_set.lto_priv.44
+                0x00000000000181ec                sd_ble_gap_ppcp_set.lto_priv.43
+                0x00000000000181f0                sd_ble_gap_appearance_set.lto_priv.42
+                0x00000000000181f4                sd_ble_gap_adv_start.lto_priv.36
+                0x00000000000181f8                rtc1_stop.lto_priv.48
+                0x0000000000018270                SWI0_IRQHandler
+                0x0000000000018728                NVIC_SystemReset.lto_priv.15
+                0x0000000000018740                ble_evt_dispatch.lto_priv.27
+                0x0000000000018ac0                conn_params_error_handler.lto_priv.17
+                0x0000000000018ac8                on_conn_params_evt.lto_priv.16
+                0x0000000000018ae8                app_timer_evt_schedule
+                0x0000000000018c28                RTC1_IRQHandler
+ .text.startup  0x0000000000018d04      0x664 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+                0x0000000000018d04                main
+ .text          0x0000000000019368      0x458 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+                0x0000000000019378                update_timeout_handler.lto_priv.24
+                0x00000000000194c4                softdevice_assertion_handler
+                0x00000000000194d0                SWI2_IRQHandler
+                0x0000000000019570                sd_softdevice_enable.lto_priv.46
+                0x0000000000019574                sd_nvic_EnableIRQ.lto_priv.47
+                0x0000000000019578                SystemInit
+                0x0000000000019614                conn_params_negotiation.lto_priv.66
+                0x0000000000019780                sd_ble_gap_ppcp_get.lto_priv.37
+                0x0000000000019784                uuid_list_encode.lto_priv.39
+                0x00000000000197b4                sd_ble_gap_device_name_get.lto_priv.41
+                0x00000000000197b8                sd_ble_gap_appearance_get.lto_priv.40
+                0x00000000000197bc                sd_ble_gap_adv_data_set.lto_priv.38
+ .text          0x00000000000197c0       0x54 _build/gcc_startup_nrf51.o
+                0x00000000000197c0                Reset_Handler
+                0x0000000000019808                NMI_Handler
+                0x000000000001980a                HardFault_Handler
+                0x000000000001980c                SVC_Handler
+                0x000000000001980e                PendSV_Handler
+                0x0000000000019810                SysTick_Handler
+                0x0000000000019812                LPCOMP_IRQHandler
+                0x0000000000019812                SWI4_IRQHandler
+                0x0000000000019812                TEMP_IRQHandler
+                0x0000000000019812                QDEC_IRQHandler
+                0x0000000000019812                UART0_IRQHandler
+                0x0000000000019812                SWI5_IRQHandler
+                0x0000000000019812                TIMER0_IRQHandler
+                0x0000000000019812                TIMER1_IRQHandler
+                0x0000000000019812                ECB_IRQHandler
+                0x0000000000019812                Default_Handler
+                0x0000000000019812                ADC_IRQHandler
+                0x0000000000019812                SWI3_IRQHandler
+                0x0000000000019812                CCM_AAR_IRQHandler
+                0x0000000000019812                WDT_IRQHandler
+                0x0000000000019812                RNG_IRQHandler
+                0x0000000000019812                SPI1_TWI1_IRQHandler
+                0x0000000000019812                TIMER2_IRQHandler
+                0x0000000000019812                SWI1_IRQHandler
+                0x0000000000019812                SPI0_TWI0_IRQHandler
+                0x0000000000019812                RTC0_IRQHandler
+                0x0000000000019812                GPIOTE_IRQHandler
+                0x0000000000019812                POWER_CLOCK_IRQHandler
+                0x0000000000019812                RADIO_IRQHandler
+ .text.memcmp   0x0000000000019814       0x1e /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+                0x0000000000019814                memcmp
+ .text.memcpy   0x0000000000019832       0x12 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+                0x0000000000019832                memcpy
+ .text.strlen   0x0000000000019844        0xe /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                0x0000000000019844                strlen
+ *(.init)
+ *fill*         0x0000000000019852        0x2 
+ .init          0x0000000000019854        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x0000000000019854                _init
+ .init          0x0000000000019858        0x8 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x0000000000019860        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x0000000000019860                _fini
+ .fini          0x0000000000019864        0x8 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000000001986c        0x2 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x000000000001986e        0x2 
+ .rodata._global_impure_ptr
+                0x0000000000019870        0x4 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x0000000000019870                _global_impure_ptr
+ .rodata        0x0000000000019874      0x10c /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+ .rodata        0x0000000000019980        0x4 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ .rodata.str1.4
+                0x0000000000019984       0x10 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ *(.eh_frame*)
+                0x0000000000019994                . = ALIGN (0x4)
+
+.glue_7         0x0000000000019994        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000019994        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000019994        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000019994        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000019994        0x0
+ .iplt          0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.ARM.extab      0x0000000000019994        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000019994                . = ALIGN (0x4)
+                0x0000000000019994                __exidx_start = .
+
+.ARM.exidx      0x0000000000019994        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000019994        0x8 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x000000000001999c        0x0 _build/gcc_startup_nrf51.o
+                                          0x8 (size before relaxing)
+                0x000000000001999c                . = ALIGN (0x4)
+                0x000000000001999c                __exidx_end = .
+                0x000000000001999c                __etext = .
+
+.rel.dyn        0x000000000001999c        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.data           0x0000000020002000       0x7c load address 0x000000000001999c
+                0x0000000020002000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x0000000020002000       0x60 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000020002060       0x1c /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+                0x000000002000207c                . = ALIGN (0x4)
+                0x000000002000207c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000000002000207c                PROVIDE (__preinit_array_end, .)
+                0x000000002000207c                . = ALIGN (0x4)
+                0x000000002000207c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x000000002000207c                PROVIDE (__init_array_end, .)
+                0x000000002000207c                . = ALIGN (0x4)
+                0x000000002000207c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x000000002000207c                PROVIDE (__fini_array_end, .)
+ *(.jcr)
+                0x000000002000207c                . = ALIGN (0x4)
+                0x000000002000207c                __data_end__ = .
+
+.igot.plt       0x000000002000207c        0x0 load address 0x0000000000019a18
+ .igot.plt      0x0000000000000000        0x0 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.bss            0x000000002000207c      0x3f4 load address 0x0000000000019a18
+                0x000000002000207c                . = ALIGN (0x4)
+                0x000000002000207c                __bss_start__ = .
+ *(.bss*)
+ .bss           0x000000002000207c       0x5c /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+ .bss           0x00000000200020d8      0x33c /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+                0x00000000200020d8                m_evt_schedule_func.lto_priv.31
+                0x00000000200022f4                m_user_array_size.lto_priv.63
+                0x00000000200022f8                m_timer_id_head.lto_priv.62
+                0x00000000200022fc                m_ticks_elapsed_q_read_ind.lto_priv.64
+                0x00000000200022fd                m_ticks_elapsed_q_write_ind.lto_priv.65
+                0x0000000020002300                m_ticks_latest.lto_priv.61
+                0x000000002000234c                m_queue_event_headers.lto_priv.59
+                0x0000000020002400                m_queue_event_data.lto_priv.60
+                0x0000000020002404                m_queue_end_index.lto_priv.57
+                0x0000000020002405                m_queue_start_index.lto_priv.56
+                0x0000000020002406                m_queue_event_size.lto_priv.55
+                0x0000000020002408                m_queue_size.lto_priv.58
+                0x000000002000240c                m_sec_params.lto_priv.54
+ .bss           0x0000000020002414       0x5c /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+                0x0000000020002414                m_conn_handle.lto_priv.21
+                0x0000000020002416                m_update_count.lto_priv.22
+                0x0000000020002418                m_conn_params_config.lto_priv.18
+                0x0000000020002434                m_preferred_conn_params.lto_priv.20
+                0x000000002000243c                m_evt_schedule_func.lto_priv.32
+                0x0000000020002440                m_softdevice_enabled.lto_priv.33
+                0x0000000020002448                m_ble_evt_handler.lto_priv.28
+                0x000000002000244c                m_ble_evt_buffer_size.lto_priv.30
+                0x0000000020002450                mp_ble_evt_buffer.lto_priv.29
+                0x0000000020002454                m_current_conn_params.lto_priv.49
+                0x000000002000245c                m_conn_params_timer_id.lto_priv.23
+                0x0000000020002460                mp_nodes.lto_priv.25
+                0x0000000020002464                m_node_array_size.lto_priv.26
+                0x0000000020002468                mp_users.lto_priv.34
+                0x000000002000246c                m_change_param.lto_priv.19
+ *(COMMON)
+                0x0000000020002470                . = ALIGN (0x4)
+                0x0000000020002470                __bss_end__ = .
+
+.heap           0x0000000020002470      0x800
+                0x0000000020002470                __end__ = .
+                0x0000000020002470                end = __end__
+ *(.heap*)
+ .heap          0x0000000020002470      0x800 _build/gcc_startup_nrf51.o
+                0x0000000020002470                __HeapBase
+                0x0000000020002c70                __HeapLimit = .
+
+.stack_dummy    0x0000000020002470      0x800
+ *(.stack*)
+ .stack         0x0000000020002470      0x800 _build/gcc_startup_nrf51.o
+                0x0000000020004000                __StackTop = (ORIGIN (RAM) + 0x2000)
+                0x0000000020003800                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020004000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(_build/nrf51422_xxac_s110.out elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x28
+ .ARM.attributes
+                0x0000000000000000       0x1e /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x1b /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x0000000000000039       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000065       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000091       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000000bd       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000000e9       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000115       0x2f /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+ .ARM.attributes
+                0x0000000000000144       0x2f /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ .ARM.attributes
+                0x0000000000000173       0x2f /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+ .ARM.attributes
+                0x00000000000001a2       0x1b _build/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x00000000000001bd       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000000001e9       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000215       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000241       0x1e /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans0.ltrans.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x71 /var/folders/q2/lz5mp0h121d7bry6cs2sgy040000gn/T//ccDSzK3y.ltrans2.ltrans.o
+
+.debug_frame    0x0000000000000000      0x108
+ .debug_frame   0x0000000000000000       0x28 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000028       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000054       0x20 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000074       0x20 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000094       0x2c /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x00000000000000c0       0x28 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000000000e8       0x20 /Users/ravitejareddy/Google Drive/nrf51822_development/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)

@@ -31,9 +31,11 @@ args = parser.parse_args()
 
 softdevice = args.softdevice
 
-
-app_hex_path = SDK_PATH + args.project_name[0] + '/pca10028/' + args.softdevice + '/armgcc/_build/'
 makefile_path = SDK_PATH + args.project_name[0] + '/pca10028/' + args.softdevice + '/armgcc/'
+if os.path.isdir(makefile_path) is not True:
+    makefile_path = SDK_PATH + args.project_name[0] + '/pca10028' + '/armgcc/'
+app_hex_path = makefile_path + '_build/'
+
 
 if args.softdevice == 's110':
     softdevice = s110
@@ -54,11 +56,11 @@ try:
     make_popen.wait()
     print(make_popen.stdout.read())
 
-    for file in glob.glob(app_hex_path + r'*.hex'):
-        print('copying', file)
+    for file in glob.glob(app_hex_path + r'nrf51422_*.hex'):
+        print('copying', file, 'to a generated.hex')
         shutil.copy(file, app_hex_path + 'generated.hex')
 
-    print('merging' + softdevice + 'and' + app_hex_path)
+    print('merging' + softdevice + '  and  ' + app_hex_path+'generated.hex')
     merge_popen = subprocess.Popen(merge_command, stdout=subprocess.PIPE)
     merge_popen.wait()
     print(merge_popen.stdout.read())
