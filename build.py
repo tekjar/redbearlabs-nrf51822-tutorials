@@ -40,14 +40,19 @@ elif args.softdevice == 's120':
 elif args.softdevice == 's130':
     softdevice = s130
 
-make_command = ('make', makefile_path)
+
+make_command = ('make', '-C', makefile_path)
+
+
 merge_command = ('srec_cat', softdevice, '-intel', app_hex_path, '-intel', '-o', args.output, '-intel',  '--line-length=44')
 
 try:
+    print('making' + makefile_path)
     make_popen = subprocess.Popen(make_command, stdout=subprocess.PIPE)
     make_popen.wait()
     print(make_popen.stdout.read())
 
+    print('merging' + softdevice + 'and' + app_hex_path)
     merge_popen = subprocess.Popen(merge_command, stdout=subprocess.PIPE)
     merge_popen.wait()
     print(merge_popen.stdout.read())
