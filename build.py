@@ -3,6 +3,8 @@ import subprocess
 import argparse
 import sys
 import textwrap
+import shutil
+import glob
 
 SDK_PATH = '/Users/ravitejareddy/Desktop/nrf51822_development/nRF51_SDK_8.1.0_b6ed55f/'
 
@@ -30,7 +32,7 @@ args = parser.parse_args()
 softdevice = args.softdevice
 
 
-app_hex_path = SDK_PATH + args.project_name[0] + '/pca10028/' + args.softdevice + '/armgcc/_build/nrf51422_xxac_' + args.softdevice + '.hex'
+app_hex_path = SDK_PATH + args.project_name[0] + '/pca10028/' + args.softdevice + '/armgcc/_build/'
 makefile_path = SDK_PATH + args.project_name[0] + '/pca10028/' + args.softdevice + '/armgcc/'
 
 if args.softdevice == 's110':
@@ -44,13 +46,17 @@ elif args.softdevice == 's130':
 make_command = ('make', '-C', makefile_path)
 
 
-merge_command = ('srec_cat', softdevice, '-intel', app_hex_path, '-intel', '-o', args.output, '-intel',  '--line-length=44')
+merge_command = ('srec_cat', softdevice, '-intel', app_hex_path + 'generated.hex', '-intel', '-o', args.output, '-intel',  '--line-length=44')
 
 try:
     print('making' + makefile_path)
     make_popen = subprocess.Popen(make_command, stdout=subprocess.PIPE)
     make_popen.wait()
     print(make_popen.stdout.read())
+
+    for file in glob.glob(app_hex_path + r'*.hex'):
+        print('copying', file)
+        shutil.copy(file, app_hex_path + 'generated.hex')
 
     print('merging' + softdevice + 'and' + app_hex_path)
     merge_popen = subprocess.Popen(merge_command, stdout=subprocess.PIPE)
