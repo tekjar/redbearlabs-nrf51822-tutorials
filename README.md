@@ -11,3 +11,6 @@ e.g
 
 **python build.py -s s120 examples/ble_peripheral/ble_app_hrs -o hrs_full.hex**
 
+######HOW TO COMPILE THESE
+
+Just copy `my_work` folder into `examples` folder in nrf sdk v8 and use the above script for generating hex files
